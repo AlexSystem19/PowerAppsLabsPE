@@ -1,0 +1,17 @@
+"https://quickchart.io/chart?c={
+  type: 'radialGauge',
+  data: {
+    datasets: [{
+      data: ["&'VARIABLE%'.Text&"],
+      backgroundColor: getGradientFillHelper('horizontal', ['Green']),
+    }]
+  },
+  options: {
+    domain: [0, 100],
+    trackColor: 'Gray',
+    centerPercentage: 70,
+    centerArea: {
+      text: (val) => val + '%',
+    },
+  }
+}"
