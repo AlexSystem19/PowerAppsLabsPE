@@ -1,0 +1,17 @@
+//CSS en Powerapps
+
+set(style_css;
+{
+fontsize : 19;
+backgroundcolor : Blue;
+fontSize2 : 9
+
+}
+)
+
+/* cabe precisa que el nombre puede ser cualquiera incluso no llevar relacion, el truco esta que lo declarado sea aceptado en el formato en donde se va aplicar, quero decir
+si quiero que sea para el fondo , en la propiedad FILL de la mayoria de los objetos acepta RGBA */
+
+/*para el tamaño de fuente podemos precisar el nombre FONTSIZE y como valor tiene 19, en la propiedad fontsize llamamos al valor declarado.*/
+
+/*considerar insertarlo en el onstar para que se declare desde el inicio o en un boton para no crear todo hasta usarlo en un momento puntal llegando a la pantalla o proceso mediante el boton*/
