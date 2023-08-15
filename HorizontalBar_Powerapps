@@ -1,0 +1,30 @@
+"https://quickchart.io/chart?c={
+   'type': 'horizontalBar',
+   'data': {
+     'labels': ['"&TextInput5.Text&"','"&TextInput5_1.Text&"','"&TextInput5_2.Text&"'],
+     'datasets': [
+       {
+         'label': 'Dataset 2',
+         'backgroundColor': 'rgba(54, 162, 235, 0.5)',
+         'borderColor': 'rgb(54, 162, 235)',
+         'borderWidth': 1,
+         'data': ["&Value(TextInput4.Text)&","&Value(TextInput4_1.Text)&","&Value(TextInput4_2.Text)&"]
+       }
+     ]
+   },
+   'options': {
+     'elements': {
+       'rectangle': {
+         'borderWidth': 2
+       }
+     },
+     'responsive': true,
+     'legend': {
+       'display': false
+     },
+     'title': {
+       'display': true,
+       'text': 'Sprint Realizados'
+     }
+   }
+ }"
